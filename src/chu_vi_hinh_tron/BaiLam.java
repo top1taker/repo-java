@@ -1,4 +1,4 @@
-package chuvihinhtron;
+package chu_vi_hinh_tron;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

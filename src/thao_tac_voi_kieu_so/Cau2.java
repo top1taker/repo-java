@@ -1,9 +1,9 @@
-package thaotacvoikieuso;
+package thao_tac_voi_kieu_so;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Cau1 {
+public class Cau2 {
 
 	public static void main(String[] args) {
 		boolean isValid;
@@ -13,10 +13,10 @@ public class Cau1 {
 				Scanner input = new Scanner(System.in);
 
 				System.out.print("Nhap a: ");
-				byte a = input.nextByte();
+				int a = input.nextInt();
 				
 				System.out.print("Nhap b: ");
-				byte b = input.nextByte();
+				int b = input.nextInt();
 				
 				System.out.print("a + b = ");
 				System.out.println(a + b);
