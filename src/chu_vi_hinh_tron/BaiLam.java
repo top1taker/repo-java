@@ -14,14 +14,15 @@ public class BaiLam {
 
 				System.out.print("Nhap d: ");
 				double d = input.nextDouble();
-				
+
 				System.out.print("Chu vi hinh tron: " + d * Math.PI);
-				
+
 				input.close();
-			} catch (InputMismatchException error) {
+			} catch (InputMismatchException e) {
 				isValid = false;
 				System.out.println("Sai kieu du lieu, hay thu lai!");
 			}
 		} while (!isValid);
 	}
+	
 }

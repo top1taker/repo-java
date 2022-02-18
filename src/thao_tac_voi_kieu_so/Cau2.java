@@ -14,10 +14,10 @@ public class Cau2 {
 
 				System.out.print("Nhap a: ");
 				int a = input.nextInt();
-				
+
 				System.out.print("Nhap b: ");
 				int b = input.nextInt();
-				
+
 				System.out.print("a + b = ");
 				System.out.println(a + b);
 
@@ -43,4 +43,5 @@ public class Cau2 {
 			}
 		} while (!isValid);
 	}
+
 }

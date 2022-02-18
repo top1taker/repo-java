@@ -14,10 +14,10 @@ public class Cau3 {
 
 				System.out.print("Nhap a: ");
 				double a = input.nextDouble();
-				
+
 				System.out.print("Nhap b: ");
 				double b = input.nextDouble();
-				
+
 				System.out.print("a + b = ");
 				System.out.println(a + b);
 
@@ -43,4 +43,5 @@ public class Cau3 {
 			}
 		} while (!isValid);
 	}
+	
 }

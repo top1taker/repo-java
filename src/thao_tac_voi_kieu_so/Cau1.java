@@ -14,10 +14,10 @@ public class Cau1 {
 
 				System.out.print("Nhap a: ");
 				byte a = input.nextByte();
-				
+
 				System.out.print("Nhap b: ");
 				byte b = input.nextByte();
-				
+
 				System.out.print("a + b = ");
 				System.out.println(a + b);
 
@@ -43,4 +43,5 @@ public class Cau1 {
 			}
 		} while (!isValid);
 	}
+
 }
