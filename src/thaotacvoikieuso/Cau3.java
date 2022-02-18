@@ -1,9 +1,9 @@
-package cau3;
+package thaotacvoikieuso;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class BaiLam {
+public class Cau3 {
 
 	public static void main(String[] args) {
 		boolean isValid;
