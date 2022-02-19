@@ -37,7 +37,7 @@ public class Cau1 {
 				System.out.println(Math.pow(a, b));
 
 				input.close();
-			} catch (InputMismatchException error) {
+			} catch (InputMismatchException e) {
 				isValid = false;
 				System.out.println("Sai kieu du lieu, hay thu lai!");
 			}
