@@ -17,7 +17,7 @@ public class BaiLam {
 			System.out.print("Nhap b: ");
 			double b = input.nextDouble();
 
-			System.out.print("Nhap b: ");
+			System.out.print("Nhap c: ");
 			double c = input.nextDouble();
 
 			if (a == 0) {
