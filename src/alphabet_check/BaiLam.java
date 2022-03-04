@@ -27,7 +27,6 @@ public class BaiLam {
 			System.out.println("Wrong input");
 		} finally {
 			input.close();
-
 		}
 
 	}

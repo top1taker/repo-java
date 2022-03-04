@@ -1,7 +1,6 @@
-package sum_and_average;
+package sum_from_1_to_n;
 
 import java.util.InputMismatchException;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class BaiLam {
@@ -10,17 +9,19 @@ public class BaiLam {
 		Scanner input = new Scanner(System.in);
 
 		try {
-			int number, sum = 0;
+			long sum = 0;
+			int number;
 
-			System.out.print("Input 5 numbers: ");
-
-			for (int i = 0; i < 5; i++) {
+			do {
+				System.out.print("Enter the number: ");
 				number = input.nextInt();
-				sum += number;
+			} while (number < 0);
+
+			for (int i = 1; i <= number; i++) {
+				sum += i;
 			}
 
-			System.out.println("The sum of 5 no is: " + sum);
-			System.out.println("The Average is: " + (sum / 5.0));
+			System.out.println("Sum from 1 to " + number + " is: " + sum);
 
 		} catch (InputMismatchException e) {
 			System.out.println("Wrong input");

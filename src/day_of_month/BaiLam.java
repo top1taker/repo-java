@@ -75,9 +75,9 @@ public class BaiLam {
 
 		} catch (InputMismatchException e) {
 			System.out.println("Wrong input");
+		} finally {
+			input.close();
 		}
-
-		input.close();
 
 	}
 
